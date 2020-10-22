@@ -1,0 +1,29 @@
+{
+  "name": "image-gallery",
+  "version": "1.0.0",
+  "description": "Image gallery showing images from Flickr",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js --single-run true",
+    "build": "webpack --config webpack.config.js",
+    "lint": "node node_modules/eslint/bin/eslint javascript/*.js"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "jasmine": "^3.5.0",
+    "karma": "^4.4.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^3.1.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "keywords": [
+    "image",
+    "gallery",
+    "flickr"
+  ],
+  "author": "Matilda Olsson",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.42.1"
+  }
+}
