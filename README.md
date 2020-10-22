@@ -13,6 +13,8 @@ Open the file index.html to view the gallery.
 
 ## Notes
 
+- The gallery requires an API key from https://www.flickr.com/ to work, add it instead of "\${API_KEY_HERE}".
+
 - The localstorage caching feature only works in Chrome and Firefox and is therefore disabled in the code for Microsoft Edge for functioning reasons.
 
 - Page will also not display images (only alts) when having cached images but no internet, this is due to displaying images with the help of flickr image links.
